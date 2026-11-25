@@ -5943,6 +5943,11 @@
       <a name="label" val="S_PRINT"/>
       <a name="labelfont" val="SansSerif bold 10"/>
     </comp>
+    <comp lib="0" loc="(440,240)" name="Tunnel">
+      <a name="facing" val="north"/>
+      <a name="label" val="RESET"/>
+      <a name="labelfont" val="SansSerif bold 10"/>
+    </comp>
     <comp lib="0" loc="(480,170)" name="Tunnel">
       <a name="label" val="STATE"/>
       <a name="labelfont" val="SansSerif bold 10"/>
@@ -6559,6 +6564,7 @@
     <wire from="(400,470)" to="(490,470)"/>
     <wire from="(400,480)" to="(410,480)"/>
     <wire from="(400,490)" to="(490,490)"/>
+    <wire from="(440,230)" to="(440,240)"/>
     <wire from="(470,170)" to="(480,170)"/>
     <wire from="(600,1050)" to="(700,1050)"/>
     <wire from="(600,1110)" to="(700,1110)"/>
